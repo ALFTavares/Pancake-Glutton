@@ -43,8 +43,7 @@ int main()
     
     std::sort(pan.pancake, pan.pancake+10, std::greater<int>());
     
-    for(i=0; i<10; i++)
-        std::cout << "person " << pan.person[i] << ": " << pan.pancake[i] << " pancakes" << std::endl;
+    std::cout << "most pancakes eaten: " << pan.person[0] << std::endl;
     
     return 0;
 }
